@@ -1,0 +1,18 @@
+
+<h4>{{productTableHeading}}</h4>
+
+<table style="width:100%" border="1px solid black">
+
+  <tr>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Description</th>
+  </tr>
+
+  <tr *ngFor="let product of productList">
+    <td>{{product.productName}}</td>
+    <td>{{product.productPrice}}</td>
+    <td>{{product.productDescripton}}</td>
+  </tr>
+
+</table>
